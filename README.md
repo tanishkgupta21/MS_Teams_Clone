@@ -18,7 +18,7 @@ It is a website where two or more than two participants can connect with each ot
 * *Before Meeting Chat*
 * *After Meeting Chat*
 * *Stop and Play Video*
-* *Mute ans Unmute Audio*
+* *Mute and Unmute Audio*
 * *Participants List*
 * *Invite Buttonn*
 ### How to get Started
@@ -38,4 +38,6 @@ It is a website where two or more than two participants can connect with each ot
   * ***Invite People Button***
   * ***Chat Button***
   * ***Participant list Button***
-* If user wants to leave the meeting then he should select ***Leave BUtton*** and it redirects to the page where user can have **after meeting chat**
+* If user wants to leave the meeting then he should select ***Leave Button*** and it redirects to the page where user can have **after meeting chat**
+![image](https://user-images.githubusercontent.com/86287178/125350874-050bab00-e37d-11eb-87b4-3729fbbc5b09.png)
+
