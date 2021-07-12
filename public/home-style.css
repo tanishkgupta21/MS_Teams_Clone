@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+background-color: #330066;
+margin: 0;
+padding: 0;
+font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login {
+  width: 430px;
+  height:190px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+
+.login .signin input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+
+.home-button button{
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+  padding: 2px;
+  margin-bottom: 15px;
+  width: 120px;
+  height:30px;
+  background-color: #363cf4 ;
+  color: white;
+  border-color: #363cf4;
+  border : 0px;
+  font-weight: 600;
+  cursor: pointer;
+}
+

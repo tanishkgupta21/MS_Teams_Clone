@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+  background-color: #4b53bc;
+}
+.main {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 650px;
+  width: 600px;
+  background-color: #3d3d42 ;
+  border-radius: 26px;
+  box-shadow: 0 15px 25px rgb(0 0 0 / 60%);
+}
+
+._header {
+ background-color: #400097;
+  text-align: center;
+  padding: 20px;
+  font-family: 500;
+  color: aliceblue;
+  font-size:large;
+  border-radius: 52px;
+}
+.chat_area {
+  flex-grow: 1;
+  overflow: auto;
+  padding: 20px 20px 0 20px;
+  
+}
+
+.chat_area div{
+  display: block;
+  width : 100%;
+  word-wrap: break-word;
+  font-weight: 400;
+  margin-top: 2px;
+  color: aliceblue;
+  }
+
+.input_message {
+    position:absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 8px 10px;
+    display: flex;
+    background-color: rgba(24, 22, 35, 1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 64px;
+  }
+  
+  .input_message_ {
+    position:absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 8px 10px;
+    display: flex;
+    background-color: rgba(24, 22, 35, 1);
+    border-radius: 20px;
+  }
+  .input_message_ input {
+    width: 240%;
+    padding: 10px 8px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    margin-bottom: 10px;
+    margin-right: 12px;
+  }
+  
+
+  .input_message input {
+    width: 93%;
+    padding: 10px 8px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    margin-bottom: 10px;
+    margin-right: 12px;
+  }
+  
+
+  #my-link{
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    padding: 2px;
+    margin-bottom: 2px;
+    width: 99px;
+    height:30px;
+    background-color: #363cf4 ;
+    color: white;
+    border-color: #363cf4;
+    border : 0px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 484px;
+    position: absolute;
+    bottom: 0;
+  }
+  

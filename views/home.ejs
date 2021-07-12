@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="home-style.css" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="login">
+      <div class="signin">
+        <input id="meeting-number" type="text" placeholder="Paste meeting link" />
+      </div>
+      <div class="home-button">
+        <button onclick="joinMeeting()">
+          Join conversation
+        </button>
+        <button onclick="joinchat()">
+          Join chat
+        </button>
+      </div>
+      <div class="home-button">
+        <a href='/create'>
+          <button> Create a meeting
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="join_room.js"></script>
+</body>
+
+</html>
