@@ -1,15 +1,24 @@
 # MS-Teams-Clone
 ## Microsoft Engage 2021 Project
 It is a website where two or more than two participants can connect with each other and have video and audio conversation with screen sharing and chat feature. Participants can also have chat before and after the meeting.
+
+***Deploymemt*** : https://warm-springs-34449.herokuapp.com
+
+***(*Camera and Microphone should be connected)***
+
 ### Contents 
-* [Libraries Used](#libraries-used)
+* [Languages and Libraries Used](#languages-and-libraries-used)
 * [Features](#features)
 * [How to get started](#how-to-get-started)
-### Libraries Used
+### Languages and Libraries Used
 * *Node JS*
 * *Express JS*
 * *Peer JS*
 * *Socket IO*
+* *Javascript*
+* *EJS*
+* *HTML*
+* *CSS*
 ### Features
 * *MultiUser Video Conversation*
 * *MultiUser Audio Conversation*
