@@ -30,6 +30,7 @@ It is a website where two or more than two participants can connect with each ot
 * *Mute and Unmute Audio*
 * *Participants List*
 * *Invite Buttonn*
+* *Multiple Rooms*
 ### Getting Started
 ***(Microphone and camera should be connected)***
 * On opening the website on browser the user will be directed to home page.
