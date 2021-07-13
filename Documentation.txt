@@ -1,5 +1,5 @@
 1. When user enters in a room a peer object is created 
-   
+
    var peer = new Peer(undefined, {
    path: "/peerjs",
    host: "/",
